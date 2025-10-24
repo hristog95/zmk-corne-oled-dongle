@@ -20,7 +20,7 @@
 
 / {
     chosen {
-        //zephyr,display = &oled;
+        zephyr,display = &oled;
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &foostan_corne_6col_layout;
